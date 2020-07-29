@@ -1,0 +1,8 @@
+{% block title %}
+    <title>SamHTML</title>
+{% endblock %}
+{% block content %}
+    <h1>welcome to Sam HTML</h1>
+    <a href="{% url 'myapp:home' %}">home</a>
+    <a href="{% url 'myapp:child' %}">child</a>
+{% endblock %}
